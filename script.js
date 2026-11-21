@@ -2,12 +2,6 @@
 const header = document.querySelector("header");
 const hora = new Date().getHours();
 
-alert("Bem-vindo(a) ao meu portfólio!");
-
-function apresentacao() {
-    alert("Olá! Meu nome é Thiago Santos e sou estudande de ADS.");
-}
-
 let saudacao;
 if (hora < 12) {
     saudacao = "Bom dia!";
