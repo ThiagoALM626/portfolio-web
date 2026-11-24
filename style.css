@@ -6,10 +6,10 @@ body {
     background-color: #82ffa7;
     color: #0e233a;
     font-family: "Georgia", serif;
-    padding: 0;
-    margin: 0;
-    padding: 5px;           
-    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 5px;
 }
 h1{
    text-align: center;
@@ -28,7 +28,7 @@ header{
     gap: 30px;
     background-color: #73c000;
     padding: 15px;
-    max-height: 150px; 
+    max-height: 300px; 
     border: 1px solid #000000;
     border-radius: 10px;
 }
@@ -45,9 +45,12 @@ header{
   height: auto;    
 }
 /* Para telas maiores*/
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .fotominha {
     width: 150px; 
+  }
+  .menu {
+    max-height: 325px; 
   }
 }
 footer{
@@ -71,11 +74,14 @@ footer{
       flex: 1; 
     }
 .layout {
+    flex: 1;
     display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
-        "header header header"
-        "menu   main   main"
-        "footer footer footer";
+        "header header"
+        "menu   main"
+        "footer footer";
     gap: 15px;
 }
 
@@ -114,4 +120,29 @@ a:hover {
 }
 .voltar:hover {
     color: #ee0b4f
+}
+.cnttxt {
+    text-align: center;
+}
+.layoutII{
+    flex: 1;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    gap: 15px;
+}
+main {
+    flex: auto;
+}
+.rosas {
+    display: inline-block;
+
+    width: 65px;
+
+    margin-left: 10px;
+
+    vertical-align: middle;
 }
