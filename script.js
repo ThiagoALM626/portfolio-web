@@ -17,7 +17,7 @@ header.appendChild(mensagem);
 // Mudar cor do titulo
 function mudarCor() {
     const titulo = document.getElementById("titulo");
-    const cores = ["red", "blue", "green", "purple", "orange", "deeppink", "teal"];
+    const cores = ["red", "blue", "green", "purple", "orange", "deeppink", "teal", "#82ffa7"];
     const sorteada = cores[Math.floor(Math.random() * cores.length)];
     titulo.style.color = sorteada;
 }
