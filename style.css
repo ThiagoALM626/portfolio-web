@@ -93,9 +93,6 @@ nav    { grid-area: menu;   }
 main   { grid-area: main;   }
 footer { grid-area: footer; }
 
-h4{
-    background-color: #006400;
-}
 .container {
     max-width: 800px;
     margin: 40px auto;
@@ -114,7 +111,8 @@ a {
 }
 
 a:hover {
-  color: #dc2626;
+    color: #ff1919;
+    background-color: #FFEF8A;
 }
 .voltar {
     color: white;
@@ -122,7 +120,8 @@ a:hover {
     transition: color 0.2s ease, background-color 0.2s ease;
 }
 .voltar:hover {
-    color: #ee0b4f
+    color: #860000;
+    background-color: #FFEF8A;
 }
 .cnttxt {
     text-align: center;
