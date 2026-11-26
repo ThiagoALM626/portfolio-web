@@ -58,8 +58,22 @@ header{
     max-width: 150px;
   }
   .cardII {
-    max-width: 150px;     
+    max-width: 150px;  
+    margin: 0px;   
 }
+.layout {
+        grid-template-columns: minmax(0, 200px) minmax(0, 1fr);
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+            "header header"
+            "menu   main"
+            "footer footer";
+    }
+
+    .menu {
+        gap: 30px;
+        max-height: 300px;
+    }
 }
 footer{
     justify-content: center;
@@ -92,6 +106,8 @@ footer{
         "menu   main"
         "footer footer";
     gap: 15px;
+    max-width: 100%;
+    min-width: 0;
 }
 
 header { grid-area: header; }
