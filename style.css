@@ -160,9 +160,7 @@ a:hover {
     max-width: 100%;
     min-width: 0;
 }
-main {
-    flex: auto;
-}
+
 .rosas {
     display: inline-block;
 
