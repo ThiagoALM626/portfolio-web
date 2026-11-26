@@ -55,7 +55,10 @@ header{
     max-height: 325px; 
   }
   .container-hor img{
-    max-width: 150px; 
+    max-width: 150px;
+  }
+  .cardII {
+    max-width: 150px;     
 }
 }
 footer{
