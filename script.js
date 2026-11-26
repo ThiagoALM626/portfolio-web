@@ -1,5 +1,5 @@
-function apresentacao() {
-    alert("Olá! Meu nome é Thiago Santos e sou estudande de ADS.");
+function obra() {
+    alert("Minha obra favorita dele são os seis Concertos de Brandemburgo");
 }
 // Saudação conforme o horário
 const header = document.querySelector("header");
@@ -48,8 +48,8 @@ document.getElementById("contato").addEventListener("submit", function(e) {
                 return;
             }
 
-            if (mensagem.length < 10) {
-                saida.textContent = "Mensagem deve ter no mínimo 10 caracteres.";
+            if (mensagem.length < 3) {
+                saida.textContent = "Mensagem deve ter no mínimo 3 caracteres.";
                 saida.className = "erro";
                 return;
             }

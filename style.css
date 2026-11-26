@@ -54,6 +54,9 @@ header{
   .menu {
     max-height: 325px; 
   }
+  .container-hor img{
+    max-width: 150px; 
+}
 }
 footer{
     justify-content: center;
@@ -149,4 +152,30 @@ main {
     margin-left: 10px;
 
     vertical-align: middle;
+}
+.container-hor {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.container-hor img{
+    width: 100%; 
+    max-width: 150px; 
+    height: auto;
+}
+.bach {
+    display: inline-block;
+
+    width: 65px;
+
+    margin-left: 10px;
+
+    vertical-align: middle;
+}
+.cardII {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
 }
