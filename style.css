@@ -167,8 +167,6 @@ main {
 
     width: 200px;
 
-    margin-left: 10px;
-
     vertical-align: middle;
 
     border-radius: 10px; 
@@ -181,4 +179,5 @@ main {
     max-width: 800px;
     flex: auto;
     flex-wrap: wrap;
+    align-items: center;
 }
