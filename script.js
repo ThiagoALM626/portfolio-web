@@ -48,7 +48,7 @@ document.getElementById("contato").addEventListener("submit", function(e) {
                 return;
             }
 
-            if (mensagem.length < 3) {
+            if (mensagem.length < 10) {
                 saida.textContent = "Mensagem deve ter no mínimo 3 caracteres.";
                 saida.className = "erro";
                 return;
