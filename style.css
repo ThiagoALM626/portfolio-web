@@ -181,3 +181,6 @@ main {
     flex-wrap: wrap;
     align-items: center;
 }
+.curiosidade a{
+    color: #000000;
+}
